@@ -4,7 +4,12 @@ body {
     padding: 0;
     line-height: 1.6;
     background-color: #f4f4f9;
-    color: #333;
+    color: #000000;
+    background-image: url(/prototype/assets/images/pexels-raulling-29900180.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 
 header {
@@ -25,12 +30,47 @@ main {
     text-align: center;
 }
 
+.alliance-members {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.rank {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rank h4 {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.member-list {
+    padding: 10px;
+}
+
+.member {
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.member:last-child {
+    border-bottom: none;
+}
+
+
 footer {
     background: #333;
     color: #fff;
     text-align: center;
     padding: 1rem;
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
